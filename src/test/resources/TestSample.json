@@ -1,0 +1,14 @@
+{
+	"Name": "Greens Technology",
+	"courses": "Java Selenium",
+	"Address": [
+		{
+			"Location": "OMR Thoraipakkam",
+			"Traine Name": "Mr Vel Murgan"
+		},
+		{
+			"Location": "Navalur",
+			"Trainer": "Mr vel Murgan, Sarath"
+		}
+	]
+}

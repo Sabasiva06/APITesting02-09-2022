@@ -1,0 +1,11 @@
+{
+	"empName": "Ajay",
+	"empNo": 9070806050,
+	"empId": 12345,
+	"address": {
+		"doorNo": "12A",
+		"streetName": "Customes Colony",
+		"district": "Chennai",
+		"state": "Tamil Nadu"
+	}
+}
