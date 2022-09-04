@@ -26,6 +26,15 @@ public class ST1 {
 		System.out.println(array);
 		Object object3 = array.get(0);
 		System.out.println(object3);
+		System.out.println(object3);
+		System.out.println(object2);
+		System.out.println(object);
+		System.out.println(object3);
+		System.out.println(object3);
+		System.out.println(object2);
+		System.out.println(object);
+		
+
 	}
 
 }
