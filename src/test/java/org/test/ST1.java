@@ -26,6 +26,10 @@ public class ST1 {
 		System.out.println(array);
 		Object object3 = array.get(0);
 		System.out.println(object3);
+		Object object4 = array.get(1);
+		System.out.println(object4);
+		Object object5 = array.get(2);
+		System.out.println(object5);
 		System.out.println(object3);
 		System.out.println(object2);
 		System.out.println(object);
@@ -34,6 +38,7 @@ public class ST1 {
 		System.out.println(object2);
 		System.out.println(object);
 		
+
 
 	}
 
