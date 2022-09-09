@@ -34,6 +34,12 @@ public class ST1 {
 		System.out.println(object4);
 		Object object5 = array.get(2);
 		System.out.println(object5);
+		Object object6 = object.get("empName");
+		String empName = object6.toString();
+		System.out.println(empName);
+		Object object7 = object.get("empId");
+		String string = object7.toString();
+		System.out.println(string);
 		System.out.println(object3);
 		System.out.println(object2);
 		System.out.println(object);
@@ -49,8 +55,8 @@ public class ST1 {
 		li.add("e");
 		li.add("g");
 		for (int i = 0; i < li.size(); i++) {
-			String string = li.get(i);
-			System.out.println(string);
+			String str = li.get(i);
+			System.out.println(str);
 		}
 
 	}
