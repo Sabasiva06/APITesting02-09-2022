@@ -4,6 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.sql.rowset.WebRowSet;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -37,8 +41,17 @@ public class ST1 {
 		System.out.println(object3);
 		System.out.println(object2);
 		System.out.println(object);
-		
-
+		List<String> li = new ArrayList<String>();
+		li.add("A");
+		li.add("B");
+		li.add("c");
+		li.add("f");
+		li.add("e");
+		li.add("g");
+		for (int i = 0; i < li.size(); i++) {
+			String string = li.get(i);
+			System.out.println(string);
+		}
 
 	}
 
