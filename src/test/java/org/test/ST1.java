@@ -30,6 +30,12 @@ public class ST1 {
 		System.out.println(object4);
 		Object object5 = array.get(2);
 		System.out.println(object5);
+		Object object6 = object.get("empName");
+		String empName = object6.toString();
+		System.out.println(empName);
+		Object object7 = object.get("empId");
+		String string = object7.toString();
+		System.out.println(string);
 	}
 
 }
